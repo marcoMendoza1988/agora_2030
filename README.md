@@ -9,20 +9,26 @@ Este es un proyecto basado en Vite.
 
 ```bash
 npm install
+exit
 
 ## Uso
 Para ejecutar el proyecto en modo de desarrollo, utiliza el siguiente comando:
 
 ```bash
 npm run dev
+exit
 
 Para construir el proyecto para producción, ejecuta:
+
 ```bash
 npm run build
+exit
 
 Para lintear el código, utiliza:
+
 ```bash
 npm run lint
+exit
 
 ## Diseño Atómico
 
