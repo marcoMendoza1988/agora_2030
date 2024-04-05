@@ -56,7 +56,7 @@ En este proyecto se utilizaron las siguientes dependencias:
 
 - **i18next** se empleó para el control y la creación del diccionario de idiomas.
 
-- **React Multi Carousel** es una dependencia que permite integrar fácilmente un carrusel, en este caso, un carrusel de imágenes que es completamente receptivo.
+- **React Multi Carousel** es una dependencia que permite integrar fácilmente un carrusel, en este caso, un carrusel de imágenes que es completamente responsivo.
 
 
 ## Dependencias
