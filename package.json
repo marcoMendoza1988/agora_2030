@@ -2,7 +2,7 @@
   "name": "vite-project",
   "private": true,
   "homepage": "https://marcomendoza1988.github.io/agora_2030/",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
