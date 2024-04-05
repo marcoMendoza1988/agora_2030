@@ -8,7 +8,7 @@ import LoaderIcon from "../../atoms/LoaderIcon";
 import { useTranslation } from "react-i18next";
 
 const ContactForm:React.FC = () => {
-    const [ response, setResponse ] = useState<string>('');
+    // const [ response, setResponse ] = useState<string>('');
     const [ loading, setLoading ] = useState<boolean>(false);
     const [ error, setError ] = useState<any>(null);
     const {t} = useTranslation();
@@ -59,7 +59,7 @@ const ContactForm:React.FC = () => {
           if (response?.status !== 201) {
             throw new Error('No se pudieron cargar las tareas.');
           }
-          setResponse('Se a enviado con exito');
+          // setResponse('Se a enviado con exito');
           resetForm();
           setLoading(false);
         } catch (error: any) {
@@ -99,6 +99,7 @@ const ContactForm:React.FC = () => {
                 color="text-white" 
                 backgroundColor="bg-[#c1285d]">{loading && <LoaderIcon />} <span className="text-white">{t('Enviar')}</span></Button>
         </div>
+        {error&& <span>{error}</span>}
       </form>
     </>
   )

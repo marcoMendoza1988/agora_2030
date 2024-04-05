@@ -14,8 +14,8 @@ const Blog: React.FC = () => {
     const {i18n} = useTranslation();
 
     const response = useSelector((state: any) => state.blogs);
-    const loading = useSelector((state: any) => state.blogs.loading);
-    const error = useSelector((state: any) => state.blogs.error);
+    // const loading = useSelector((state: any) => state.blogs.loading);
+    // const error = useSelector((state: any) => state.blogs.error);
 
     const fetchBlogData = async() => {
         dispatch(setLoading(true));

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Menu from "../../molecules/Menu";
 import Button from "../../atoms/Button";
 import ToggleButton from "../../molecules/ToggleButton";

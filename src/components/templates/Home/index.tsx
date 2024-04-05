@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import WhatWeDo from "../../organisms/WhatWeDo";
 import Cards from "../../organisms/Cards";
 import OurAllies from "../../organisms/OurAllies";
@@ -8,7 +8,7 @@ import ImpactComponent from "../../organisms/ImpactComponent";
 import JobOportunities from "../../organisms/JobOportunities";
 import ContactForm from "../../organisms/ContactForm";
 import { useTranslation } from "react-i18next";
-import { adjustContrast } from "../../../lib";
+// import { adjustContrast } from "../../../lib";
 
 const Home: React.FC = () => {
     const { i18n, t } = useTranslation();
